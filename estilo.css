@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3c3c3c; /* Fondo gris un poco más oscuro */
+}
+
+.container {
+    background-color: #000000; /* Fondo blanco */
+    max-width: 800px;
+    margin: 20px auto; /* Margen superior para separar el título y la imagen */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centra el contenido horizontalmente */
+    position: relative; /* Establece el posicionamiento relativo para el contenedor */
+    background-color: #dcdcdc; /* Fondo gris un poco más oscuro */
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #ccc; /* Borde gris claro alrededor de la imagen */
+    margin-bottom: 20px; /* Separación más grande entre la imagen y el párrafo */
+    margin-top: 60px; /* Mueve la imagen hacia abajo para separarla del título */
+    background-color: #dcdcdc; /* Fondo gris un poco más oscuro */
+}
+
+/* Estilos para el título */
+h1 {
+    background-color: #FFFFFF; /* Fondo gris un poco más oscuro */
+    color: #333; /* Texto gris oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; /* Centra el título horizontalmente */
+    margin: 0 auto; /* Centra el título horizontalmente */
+    max-width: 90%; /* Limita el ancho del título */
+    position: absolute; /* Establece el posicionamiento absoluto para el título */
+    top: 10px; /* Mantiene el título en su lugar original */
+    left: 0;
+    right: 0;
+}
+
+/* Estilos para el párrafo */
+p {
+    background-color: #FFFFFF; /* Fondo gris un poco más oscuro */
+    color: #333; /* Texto gris oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilos para el video */
+video {
+    display: block;
+    margin: 20px auto; /* Centra el video horizontalmente */
+    max-width: 100%;
+}
+/* Estilos para el video */
+iframe {
+    display: block;
+    margin: 0 auto; /* Centra el video horizontalmente */
+    max-width: 100%;
+}
